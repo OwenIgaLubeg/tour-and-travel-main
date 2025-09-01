@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob-Musinguzi Safari adventures.</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="index.html" class="logo"><span>BOB</span>safaris</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Explore The Pearl Of Africa.</h3>
+            <p>discover new places and feel safe, adventure awaits</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="./images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./images/book-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/Kibale-chimpanzees.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>3 Days: Uganda Safaris - Kibale National Park</h3>
+                    <p>Hike through lush forests to encounter chimps and monkeys. With over 350 species of birds.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/bwindi-gorilla-trekking-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>3 Days: Bwindi and Lake Bunyonyi</h3>
+                    <p>Venture through Bwindi Impenetrable Forest to spot nearly half of the world’s mountain gorillas.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $100.00 <span>$220.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/Golden-Monkey.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>4 Days – Lake Mburo, Bwindi and Lake Bunyonyi</h3>
+                    <p>A popular destination for Gorilla tracking in the wild, visit Lake Bunyonyi and safari in Lake Mburo.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/zebras-in-lake-mburo-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>7-Days Uganda Discovery Safari</h3>
+                    <p>Five remarkable National Parks including Kibale Forest, Lake Mburo, and more.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $95.00 <span>$130.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/rwenzori-colobus -monkey.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>6-Day Family Safari in Uganda</h3>
+                    <p>Diverse wildlife including lions, elephants, and chimp tracking in the lush Kibale Forest and more...</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$110.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/main-slider-51.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>15 Days Uganda Adventure and Culture tour</h3>
+                    <p>Source of River Nile and more...</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Lodging and Cottages</h3>
+                <p>BOB Safaris provides comfortable lodging and charming cottages that offer a cozy retreat after a day
+                    of exploration. Nestled in scenic locations, these accommodations blend modern amenities with the
+                    natural beauty of Uganda, ensuring guests enjoy a restful and authentic stay. Whether you prefer
+                    rustic cottages or well-appointed lodges, BOB Safaris caters to diverse preferences, making your
+                    safari experience both relaxing and memorable.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>BOB Safaris takes pride in offering delicious and nutritious meals that highlight local flavors and
+                    international cuisine. Whether dining in the wilderness or at their lodges, guests can expect
+                    freshly prepared dishes made from quality ingredients. Special dietary needs are accommodated,
+                    ensuring every traveler enjoys satisfying meals that complement their safari journey.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safety Guide</h3>
+                <p>Safety is a top priority at BOB Safaris, and their professional guides are trained to ensure your
+                    well-being throughout your travels. Equipped with extensive knowledge of the terrain, wildlife
+                    behavior, and emergency protocols, the guides provide a secure environment while enriching your
+                    experience with insightful information. Their presence guarantees peace of mind, allowing you to
+                    fully immerse yourself in Uganda’s natural wonders.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Car Rental Services</h3>
+                <p>BOB Safaris offers reliable car rental services featuring well-maintained vehicles suitable for various
+                    terrains across Uganda. Whether you need a sturdy 4x4 for rugged safari routes or a comfortable sedan
+                    for city travel, their fleet is designed to meet your transportation needs. With flexible rental
+                    options and professional support, BOB Safaris ensures your journeys are smooth, convenient,
+                    and hassle-free.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>To streamline your travel experience, BOB Safaris provides fast travel services including air ticketing
+                    and visa process arrangements. Their expert team assists with booking flights to and from Uganda,
+                    securing the best fares and convenient schedules. Additionally, they handle visa applications
+                    and documentation, simplifying entry requirements so you can focus on enjoying your adventure
+                    without administrative worries.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>For thrill-seekers and nature enthusiasts, BOB Safaris offers a wide range of adventure activities
+                    that showcase Uganda’s breathtaking landscapes and wildlife. From gorilla trekking and mountain
+                    climbing to white-water rafting and wildlife safaris, their expertly guided tours promise
+                    excitement and unforgettable encounters. Each adventure is tailored to suit your interests
+                    and fitness level, ensuring a safe and exhilarating experience in the heart of Africa.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/birding-in-semuliki.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Explore with BOB safaris.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/bufalos2inpark.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Explore with BOB safaris.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/kidepo-kobs.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Explore with BOB safaris.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/rwenzori-colobus -monkey.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Explore with BOB safaris.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/semuliki-national-park1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Explore with BOB safaris.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/Rwenzori-Sun-Squirrel-1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Explore with BOB safaris.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/Kibale-chimpanzees.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Explore with BOB safaris.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/cc.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Explore with BOB safaris.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/Rwenzori-Mountains-National-Park.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Explore with BOB safaris.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic1.png" alt="">
+                        <h3>Vicent Alex</h3>
+                        <p>We loved the personalized attention and flexibility in planning our daily activities with
+                            BOB Safaris.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic2.png" alt="">
+                        <h3>Mark Smith</h3>
+                        <p>Our safari adventure was thrilling and safe, thanks to the knowledgeable and friendly
+                            guides from BOB Safaris.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic3.png" alt="">
+                        <h3>Paul Ryan</h3>
+                        <p>The lodging provided was comfortable and perfectly located, offering stunning views and
+                            a peaceful atmosphere.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic4.png" alt="">
+                        <h3>john deo</h3>
+                        <p>BOB Safaris made our Uganda trip unforgettable with their professional guides and
+                            well-organized itinerary.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./images/contact-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+    <!--<section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/partner-1.png" alt=""></div>
+                <div class="swiper-slide"><img src="./images/partner-2.png" alt=""></div>
+                <div class="swiper-slide"><img src="./images/partner-3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/partner-4.png" alt=""></div>
+                <div class="swiper-slide"><img src="./images/partner-5.png" alt=""></div>
+
+            </div>
+        </div>
+
+    </section>-->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>BOB Safaris is a premier tours and travel company based in Uganda, dedicated to providing exceptional
+                    safari experiences that showcase the country’s rich natural beauty and diverse wildlife. With a
+                    strong commitment to customer satisfaction, BOB Safaris offers a wide range of services including
+                    guided wildlife tours, comfortable lodging, reliable car rentals, and seamless travel arrangements
+                    such as air ticketing and visa processing. Their team of knowledgeable and professional guides
+                    ensures safety and personalized attention, making every trip both memorable and enjoyable.
+                    Whether you are seeking thrilling adventures like gorilla trekking or a relaxing getaway
+                    in scenic cottages, BOB Safaris combines expertise, passion, and local insight to deliver
+                    authentic and unforgettable journeys across Uganda.</p>
+            </div>
+            <!--<div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>-->
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit">Call the Developer on:<span> 0757 212 707</span> | all rights reserved! </h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
