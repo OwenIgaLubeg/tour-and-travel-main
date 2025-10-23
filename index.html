@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bob-Musinguzi Safari adventures.</title>
+    <title>Fahimz Perfums</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
@@ -24,16 +24,13 @@
 
         <div id="menu-bar" class="fas fa-bars"></div>
 
-        <a href="index.html" class="logo"><span>BOB</span>safaris</a>
+        <a href="index.html" class="logo"><span>@FAHIMZ</span>perfumes</a>
 
         <nav class="navbar">
             <a href="#home">home</a>
-            <a href="#book">book</a>
-            <a href="#packages">packages</a>
-            <a href="#services">services</a>
-            <a href="#gallery">gallery</a>
-            <a href="#review">review</a>
-            <a href="#contact">contact</a>
+            <a href="#about">about-us</a>
+            <a href="#gallery">collections</a>
+            <a href="#contact">contact-us</a>
         </nav>
 
         <div class="icons">
@@ -52,11 +49,11 @@
 
     <!-- login form container  -->
 
-    <div class="login-form-container">
+    <!--<div class="login-form-container">
 
         <i class="fas fa-times" id="form-close"></i>
 
-        <form action="">
+<form action="">
             <h3>login</h3>
             <input type="email" class="box" placeholder="enter your email">
             <input type="password" class="box" placeholder="enter your password">
@@ -67,37 +64,41 @@
             <p>don't have and account? <a href="#">register now</a></p>
         </form>
 
-    </div>
+    </div>-->
 
     <!-- home section starts  -->
 
-    <section class="home" id="home">
+    <section class="home" id="home" style="position: relative; overflow: hidden; height: 100vh;">
 
-        <div class="content">
-            <h3>Explore The Pearl Of Africa.</h3>
-            <p>discover new places and feel safe, adventure awaits</p>
-            <a href="#" class="btn">Read more</a>
+        <!-- Video background -->
+        <div class="video-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: -1;">
+            <video id="video-slider" src="images/TomFord.mp4" autoplay loop muted playsinline
+                   style="width: 100%; height: 100%; object-fit: cover;">
+            </video>
         </div>
 
-        <div class="controls">
-            <span class="vid-btn active" data-src="./images/vid-1.mp4"></span>
-            <span class="vid-btn" data-src="./images/vid-2.mp4"></span>
-            <span class="vid-btn" data-src="./images/vid-3.mp4"></span>
-            <span class="vid-btn" data-src="./images/vid-4.mp4"></span>
-            <span class="vid-btn" data-src="./images/vid-5.mp4"></span>
+        <!-- Content overlay -->
+        <div class="content" style="position: relative; z-index: 2; text-align: center; top: 40%; color: white;">
+            <h3 style="font-size: 2.5rem; font-weight: bold;">Perfumes & Cosmetics</h3>
+            <p style="font-size: 1.2rem; margin-top: 10px;">The Beauty Of Fragrance Is That It Speaks To Your Heart.</p>
+            <a href="about.html" class="btn" style="margin-top: 20px; display: inline-block; padding: 10px 20px; background-color: lightgreen; color: #000; text-decoration: none; border-radius: 5px;">Read More</a>
         </div>
 
-        <div class="video-container">
-            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        <!-- Video control (optional) -->
+        <div class="controls" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 3;">
+    <span class="vid-btn active" data-src="images/TomFord.mp4"
+          style="display: inline-block; width: 15px; height: 15px; background: lightgreen; border-radius: 50%; margin: 0 5px; cursor: pointer;">
+    </span>
         </div>
 
     </section>
+
 
     <!-- home section ends -->
 
     <!-- book section starts  -->
 
-    <section class="book" id="book">
+    <!--<section class="book" id="book">
 
         <h1 class="heading">
             <span>b</span>
@@ -138,7 +139,7 @@
 
         </div>
 
-    </section>
+    </section>-->
 
     <!-- book section ends -->
 
@@ -148,11 +149,11 @@
 
         <h1 class="heading">
             <span>p</span>
-            <span>a</span>
-            <span>c</span>
-            <span>k</span>
-            <span>a</span>
-            <span>g</span>
+            <span>e</span>
+            <span>r</span>
+            <span>f</span>
+            <span>u</span>
+            <span>m</span>
             <span>e</span>
             <span>s</span>
         </h1>
@@ -160,10 +161,10 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="./images/Kibale-chimpanzees.jpg" alt="">
+                <img src="./images/1000026442.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i>3 Days: Uganda Safaris - Kibale National Park</h3>
-                    <p>Hike through lush forests to encounter chimps and monkeys. With over 350 species of birds.</p>
+                    <h3> <i class="fas fa-map-marker-alt"></i>Amber Luxe - </h3>
+                    <p>A warm, sensual blend of amber and vanilla for timeless elegance.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -172,15 +173,15 @@
                         <i class="far fa-star"></i>
                     </div>
                     <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">book now</a>
+                    <a href="contact.html" class="btn">order now</a>
                 </div>
             </div>
 
             <div class="box">
-                <img src="./images/bwindi-gorilla-trekking-1.jpg" alt="">
+                <img src="./images/1000026671.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i>3 Days: Bwindi and Lake Bunyonyi</h3>
-                    <p>Venture through Bwindi Impenetrable Forest to spot nearly half of the world’s mountain gorillas.</p>
+                    <h3> <i class="fas fa-map-marker-alt"></i>Ocean Mist</h3>
+                    <p>Fresh sea breeze meets citrus zest; pure coastal energy in a bottle.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -189,15 +190,15 @@
                         <i class="far fa-star"></i>
                     </div>
                     <div class="price"> $100.00 <span>$220.00</span> </div>
-                    <a href="#" class="btn">book now</a>
+                    <a href="contact.html" class="btn">order now</a>
                 </div>
             </div>
 
             <div class="box">
-                <img src="./images/Golden-Monkey.jpg" alt="">
+                <img src="./images/1000026683.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i>4 Days – Lake Mburo, Bwindi and Lake Bunyonyi</h3>
-                    <p>A popular destination for Gorilla tracking in the wild, visit Lake Bunyonyi and safari in Lake Mburo.</p>
+                    <h3> <i class="fas fa-map-marker-alt"></i>Velvet Rose</h3>
+                    <p>Classic rose petals with hints of musk for romantic evenings.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -206,15 +207,15 @@
                         <i class="far fa-star"></i>
                     </div>
                     <div class="price"> $80.00 <span>$100.00</span> </div>
-                    <a href="#" class="btn">book now</a>
+                    <a href="contact.html" class="btn">order now</a>
                 </div>
             </div>
 
             <div class="box">
-                <img src="./images/zebras-in-lake-mburo-1.jpg" alt="">
+                <img src="./images/1000026774.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i>7-Days Uganda Discovery Safari</h3>
-                    <p>Five remarkable National Parks including Kibale Forest, Lake Mburo, and more.</p>
+                    <h3> <i class="fas fa-map-marker-alt"></i>Royal Oud</h3>
+                    <p>Deep woody richness with smoky undertones; bold and sophisticated.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -223,15 +224,15 @@
                         <i class="far fa-star"></i>
                     </div>
                     <div class="price"> $95.00 <span>$130.00</span> </div>
-                    <a href="#" class="btn">book now</a>
+                    <a href="contact.html" class="btn">order now</a>
                 </div>
             </div>
 
             <div class="box">
-                <img src="./images/rwenzori-colobus -monkey.jpg" alt="">
+                <img src="./images/1000026777.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i>6-Day Family Safari in Uganda</h3>
-                    <p>Diverse wildlife including lions, elephants, and chimp tracking in the lush Kibale Forest and more...</p>
+                    <h3> <i class="fas fa-map-marker-alt"></i>Citrus Bloom</h3>
+                    <p>A burst of lemon and jasmine for radiant, all-day freshness.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -240,15 +241,15 @@
                         <i class="far fa-star"></i>
                     </div>
                     <div class="price"> $80.00 <span>$110.00</span> </div>
-                    <a href="#" class="btn">book now</a>
+                    <a href="contact.html" class="btn">order now</a>
                 </div>
             </div>
 
             <div class="box">
-                <img src="./images/main-slider-51.jpg" alt="">
+                <img src="./images/1000026783.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i>15 Days Uganda Adventure and Culture tour</h3>
-                    <p>Source of River Nile and more...</p>
+                    <h3> <i class="fas fa-map-marker-alt"></i>Midnight Desire</h3>
+                    <p>Dark berries and amber create a seductive, mysterious aura.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -257,7 +258,7 @@
                         <i class="far fa-star"></i>
                     </div>
                     <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">book now</a>
+                    <a href="contact.html" class="btn">order now</a>
                 </div>
             </div>
 
@@ -284,24 +285,24 @@
 
         <div class="box-container">
 
-            <div class="box">
+            <!--<div class="box">
                 <i class="fas fa-hotel"></i>
-                <h3>Lodging and Cottages</h3>
+                <h3>Retail & whosale</h3>
                 <p>BOB Safaris provides comfortable lodging and charming cottages that offer a cozy retreat after a day
                     of exploration. Nestled in scenic locations, these accommodations blend modern amenities with the
                     natural beauty of Uganda, ensuring guests enjoy a restful and authentic stay. Whether you prefer
                     rustic cottages or well-appointed lodges, BOB Safaris caters to diverse preferences, making your
                     safari experience both relaxing and memorable.</p>
-            </div>
-            <div class="box">
+            </div>-->
+           <!-- <div class="box">
                 <i class="fas fa-utensils"></i>
                 <h3>food and drinks</h3>
                 <p>BOB Safaris takes pride in offering delicious and nutritious meals that highlight local flavors and
                     international cuisine. Whether dining in the wilderness or at their lodges, guests can expect
                     freshly prepared dishes made from quality ingredients. Special dietary needs are accommodated,
                     ensuring every traveler enjoys satisfying meals that complement their safari journey.</p>
-            </div>
-            <div class="box">
+            </div>-->
+           <!-- <div class="box">
                 <i class="fas fa-bullhorn"></i>
                 <h3>Safety Guide</h3>
                 <p>Safety is a top priority at BOB Safaris, and their professional guides are trained to ensure your
@@ -309,8 +310,8 @@
                     behavior, and emergency protocols, the guides provide a secure environment while enriching your
                     experience with insightful information. Their presence guarantees peace of mind, allowing you to
                     fully immerse yourself in Uganda’s natural wonders.</p>
-            </div>
-            <div class="box">
+            </div>-->
+            <!--<div class="box">
                 <i class="fas fa-globe-asia"></i>
                 <h3>Car Rental Services</h3>
                 <p>BOB Safaris offers reliable car rental services featuring well-maintained vehicles suitable for various
@@ -318,24 +319,20 @@
                     for city travel, their fleet is designed to meet your transportation needs. With flexible rental
                     options and professional support, BOB Safaris ensures your journeys are smooth, convenient,
                     and hassle-free.</p>
-            </div>
+            </div>-->
             <div class="box">
                 <i class="fas fa-plane"></i>
-                <h3>fastest travel</h3>
-                <p>To streamline your travel experience, BOB Safaris provides fast travel services including air ticketing
-                    and visa process arrangements. Their expert team assists with booking flights to and from Uganda,
-                    securing the best fares and convenient schedules. Additionally, they handle visa applications
-                    and documentation, simplifying entry requirements so you can focus on enjoying your adventure
-                    without administrative worries.</p>
+                <h3>Wholesale</h3>
+                <p> Perfume Is The Art That Makes Memory Speak <br>In essence, perfume is much more than simply smelling nice -<br>
+                    it can transform lives in ways that are both tangible and intangible. By delving into its depths, <br> can revel in forgotten memories, ease stress levels and garner self-confidence.
+                    <br>Such is the power of scent.</p>
             </div>
             <div class="box">
                 <i class="fas fa-hiking"></i>
-                <h3>adventures</h3>
-                <p>For thrill-seekers and nature enthusiasts, BOB Safaris offers a wide range of adventure activities
-                    that showcase Uganda’s breathtaking landscapes and wildlife. From gorilla trekking and mountain
-                    climbing to white-water rafting and wildlife safaris, their expertly guided tours promise
-                    excitement and unforgettable encounters. Each adventure is tailored to suit your interests
-                    and fitness level, ensuring a safe and exhilarating experience in the heart of Africa.</p>
+                <h3>Retail</h3>
+                <p> Perfume Is The Art That Makes Memory Speak <br>In essence, perfume is much more than simply smelling nice -<br>
+                    it can transform lives in ways that are both tangible and intangible. By delving into its depths, <br> can revel in forgotten memories, ease stress levels and garner self-confidence.
+                    <br>Such is the power of scent.</p>
             </div>
 
         </div>
@@ -361,75 +358,75 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="./images/birding-in-semuliki.jpg" alt="">
+                <img src="./images/1000026786.jpg" alt="">
                 <div class="content">
-                    <h3>amazing places</h3>
-                    <p>Explore with BOB safaris.</p>
-                    <a href="#" class="btn">see more</a>
+                    <h3>Fahimz Perfumes</h3>
+                    <p>make your order now</p>
+                    <a href="contact.html" class="btn">order</a>
                 </div>
             </div>
             <div class="box">
-                <img src="./images/bufalos2inpark.jpg" alt="">
+                <img src="./images/1000026700.jpg" alt="">
                 <div class="content">
-                    <h3>amazing places</h3>
-                    <p>Explore with BOB safaris.</p>
-                    <a href="#" class="btn">see more</a>
+                    <h3>Fahimz Perfumes</h3>
+                    <p>make your order now</p>
+                    <a href="contact.html" class="btn">order</a>
                 </div>
             </div>
             <div class="box">
-                <img src="./images/kidepo-kobs.jpg" alt="">
+                <img src="./images/1000026752.jpg" alt="">
                 <div class="content">
-                    <h3>amazing places</h3>
-                    <p>Explore with BOB safaris.</p>
-                    <a href="#" class="btn">see more</a>
+                    <h3>Fahimz Perfumes</h3>
+                    <p>make your order now</p>
+                    <a href="contact.html" class="btn">order</a>
                 </div>
             </div>
             <div class="box">
-                <img src="./images/rwenzori-colobus -monkey.jpg" alt="">
+                <img src="./images/1000026801.jpg" alt="">
                 <div class="content">
-                    <h3>amazing places</h3>
-                    <p>Explore with BOB safaris.</p>
-                    <a href="#" class="btn">see more</a>
+                    <h3>Fahimz Perfumes</h3>
+                    <p>make your order now</p>
+                    <a href="contact.html" class="btn">order</a>
                 </div>
             </div>
             <div class="box">
-                <img src="./images/semuliki-national-park1.jpg" alt="">
+                <img src="./images/1000026442.jpg" alt="">
                 <div class="content">
-                    <h3>amazing places</h3>
-                    <p>Explore with BOB safaris.</p>
-                    <a href="#" class="btn">see more</a>
+                    <h3>Fahimz Perfumes</h3>
+                    <p>make your order now</p>
+                    <a href="contact.html" class="btn">order</a>
                 </div>
             </div>
             <div class="box">
-                <img src="./images/Rwenzori-Sun-Squirrel-1.jpg" alt="">
+                <img src="./images/1000026824.jpg" alt="">
                 <div class="content">
-                    <h3>amazing places</h3>
-                    <p>Explore with BOB safaris.</p>
-                    <a href="#" class="btn">see more</a>
+                    <h3>Fahimz Perfumes</h3>
+                    <p>make your order now</p>
+                    <a href="contact.html" class="btn">order</a>
                 </div>
             </div>
             <div class="box">
-                <img src="./images/Kibale-chimpanzees.jpg" alt="">
+                <img src="./images/1000026860.jpg" alt="">
                 <div class="content">
-                    <h3>amazing places</h3>
-                    <p>Explore with BOB safaris.</p>
-                    <a href="#" class="btn">see more</a>
+                    <h3>Fahimz Perfumes</h3>
+                    <p>make your order now</p>
+                    <a href="contact.html" class="btn">order</a>
                 </div>
             </div>
             <div class="box">
-                <img src="./images/cc.jpg" alt="">
+                <img src="./images/1000026777.jpg" alt="">
                 <div class="content">
-                    <h3>amazing places</h3>
-                    <p>Explore with BOB safaris.</p>
-                    <a href="#" class="btn">see more</a>
+                    <h3>Fahimz Perfumes</h3>
+                    <p>make your order now</p>
+                    <a href="contact.html" class="btn">order</a>
                 </div>
             </div>
             <div class="box">
-                <img src="./images/Rwenzori-Mountains-National-Park.jpg" alt="">
+                <img src="./images/1000026774.jpg" alt="">
                 <div class="content">
-                    <h3>amazing places</h3>
-                    <p>Explore with BOB safaris.</p>
-                    <a href="#" class="btn">see more</a>
+                    <h3>Fahimz Perfumes</h3>
+                    <p>make your order now</p>
+                    <a href="contact.html" class="btn">order</a>
                 </div>
             </div>
 
@@ -441,7 +438,7 @@
 
     <!-- review section starts  -->
 
-    <section class="review" id="review">
+   <!-- <section class="review" id="review">
 
         <h1 class="heading">
             <span>r</span>
@@ -521,7 +518,7 @@
 
         </div>
 
-    </section>
+    </section>-->
 
     <!-- review section ends -->
 
@@ -588,15 +585,12 @@
 
             <div class="box">
                 <h3>about us</h3>
-                <p>BOB Safaris is a premier tours and travel company based in Uganda, dedicated to providing exceptional
-                    safari experiences that showcase the country’s rich natural beauty and diverse wildlife. With a
-                    strong commitment to customer satisfaction, BOB Safaris offers a wide range of services including
-                    guided wildlife tours, comfortable lodging, reliable car rentals, and seamless travel arrangements
-                    such as air ticketing and visa processing. Their team of knowledgeable and professional guides
-                    ensures safety and personalized attention, making every trip both memorable and enjoyable.
-                    Whether you are seeking thrilling adventures like gorilla trekking or a relaxing getaway
-                    in scenic cottages, BOB Safaris combines expertise, passion, and local insight to deliver
-                    authentic and unforgettable journeys across Uganda.</p>
+                <p>Fahimz Perfumes & Cosmetics – Elegance in Every Scent
+
+                    Located in Makindye, Kampala (opposite the barracks), Fahimz Perfumes & Cosmetics is your trusted
+                    destination for luxurious, high-end, and mild perfumes at affordable prices. We blend elegance with
+                    quality, offering a wide collection of designer-inspired fragrances, body sprays, and beauty products
+                    that leave a lasting impression.</p>
             </div>
             <!--<div class="box">
                 <h3>branch locations</h3>
@@ -607,42 +601,24 @@
             </div>-->
             <div class="box">
                 <h3>quick links</h3>
-                <a href="#">home</a>
-                <a href="#">book</a>
-                <a href="#">packages</a>
-                <a href="#">services</a>
-                <a href="#">gallery</a>
-                <a href="#">review</a>
-                <a href="#">contact</a>
+                <a href="index.html">home</a>
+                <a href="about.html">about-us</a>
+                <a href="gallery.html">gallery</a>
+                <a href="contact.html">contact</a>
             </div>
             <div class="box">
                 <h3>follow us</h3>
-                <a href="#">facebook</a>
-                <a href="#">instagram</a>
-                <a href="#">twitter</a>
-                <a href="#">linkedin</a>
+                <a href="https://www.facebook.com/@fahimzperfumes">facebook</a>
+                <a href="https://www.instagram.com/@fahimzperfumes">instagram</a>
+                <a href="https://www.tiktok.com/@fahimzperfumes">tiktok</a>
+                <a href="https://www.youtube.com/@fahimzperfumes">youtube</a>
             </div>
 
         </div>
 
-        <h1 class="credit">Call the Developer on:<span> 0757 212 707</span> | all rights reserved! </h1>
+        <h1 class="credit">Deliveries<span>@ FAHIMZ PERFUMES</span> | all rights reserved! </h1>
 
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
